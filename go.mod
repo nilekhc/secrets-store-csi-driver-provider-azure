@@ -3,7 +3,7 @@ module github.com/Azure/secrets-store-csi-driver-provider-azure
 go 1.17
 
 require (
-	github.com/Azure/azure-sdk-for-go v57.3.0+incompatible
+	github.com/Azure/azure-sdk-for-go v61.3.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.11.23
 	github.com/Azure/go-autorest/autorest/adal v0.9.18
 	github.com/google/go-cmp v0.5.5
