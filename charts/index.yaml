@@ -3,6 +3,28 @@ entries:
   csi-secrets-store-provider-azure:
   - apiVersion: v2
     appVersion: 1.4.1
+    created: "2023-11-13T19:00:11.335286259Z"
+    dependencies:
+    - condition: secrets-store-csi-driver.install
+      name: secrets-store-csi-driver
+      repository: https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
+      version: 1.3.4
+    description: A Helm chart to install the Secrets Store CSI Driver and the Azure
+      Keyvault Provider inside a Kubernetes cluster.
+    digest: 9e7af8174a8bc38c56761182ca0c88b8186ccd1be66d9a17338be1df3fd277c0
+    home: https://github.com/Azure/secrets-store-csi-driver-provider-azure
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: anish.ramasekar@gmail.com
+      name: Anish Ramasekar
+    name: csi-secrets-store-provider-azure
+    sources:
+    - https://github.com/Azure/secrets-store-csi-driver-provider-azure
+    urls:
+    - https://nilekhc.github.io/secrets-store-csi-driver-provider-azure/charts/csi-secrets-store-provider-azure-1.4.4.tgz
+    version: 1.4.4
+  - apiVersion: v2
+    appVersion: 1.4.1
     created: "2023-04-18T18:37:16.433209106Z"
     dependencies:
     - condition: secrets-store-csi-driver.install
@@ -89,4 +111,4 @@ entries:
     urls:
     - https://nilekhc.github.io/secrets-store-csi-driver-provider-azure/charts/csi-secrets-store-provider-azure-1.3.0.tgz
     version: 1.3.0
-generated: "2023-04-18T18:37:16.430424183Z"
+generated: "2023-11-13T19:00:11.331739875Z"
