@@ -30,7 +30,7 @@ spec:
           - name: SERVER_PORT
             value: "8090"
           - name: EXTENSION_RESOURCE_ID
-            value: "{{ .Values.Azure.Extension.ResourceId }}"
+            value: "{{ .Values.Azure.Cluster.ResourceId }}"
           resources:
             requests:
               cpu: 50m
